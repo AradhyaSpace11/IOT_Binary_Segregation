@@ -1,0 +1,6 @@
+opencv-python
+numpy
+paho-mqtt
+Flask
+Flask-Cors
+ultralytics
