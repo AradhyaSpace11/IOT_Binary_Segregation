@@ -9,8 +9,8 @@ import os
 from ultralytics import YOLO
 
 # Configuration
-VIDEO_URL = 'http://192.0.0.4:8080/video'
-MQTT_BROKER = "192.168.50.197"
+VIDEO_URL = '' # for example http://192.0.0.4:8080/video if using an android ip cam app
+MQTT_BROKER = "" # Your laptop, PC or Central Computer's IP Address
 MQTT_PORT = 1883
 MQTT_TOPIC = "esp32/commands"
 REGION_SIZE = 400
